@@ -1,0 +1,14 @@
+{
+    "name": "reginaldoazevedojr/kafka-php-test",
+    "description": "Test PHP with Kafka",
+    "type": "project",
+    "require": {
+        "nmred/kafka-php": "v0.2.0.8"
+    },
+    "authors": [
+        {
+            "name": "Reginaldo Azevedo Junior",
+            "email": "reginaldoazevedojr@gmail.com"
+        }
+    ]
+}
