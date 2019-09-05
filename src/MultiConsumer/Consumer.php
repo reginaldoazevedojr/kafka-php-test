@@ -10,6 +10,6 @@ $config->setTopics(['test']);
 $consumer = new \Kafka\Consumer();
 
 $consumer->start(function($topic, $part, $message) {
-    var_dump($message);
+    echo $message['message']['value'] . "\n";
 });
 
